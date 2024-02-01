@@ -64,7 +64,41 @@ body {
 }
 
 #btn2 {
-    color:white;
-    border:none;
+    color: white;
+    border: none;
     background-color: orangered;
+}
+
+#main>h1 {
+    /* color: blue; */
+    /* border: 2px solid red; */
+    font-size: 180px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#img1 {
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2 {
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3 {
+    transform: translate(-50%,-50%) rotate(-10deg);
 }
