@@ -11,7 +11,7 @@ Welcome to my frontend project.
 
 ## Technologies Used
 
-List the technologies and tools you used in your project.
+List the technologies and tools i've used in your project.
 
 - HTML
 - CSS
