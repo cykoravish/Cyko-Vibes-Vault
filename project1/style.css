@@ -14,7 +14,8 @@ body {
 #main {
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #31353d;
+    color:#fff;
 }
 
 #nav {
@@ -35,7 +36,7 @@ body {
 
 #nav h3 {
     font-size: 17px;
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 2px solid #fff;
     font-weight: 500;
     padding: 5px 10px;
     border-radius: 50px;
@@ -43,7 +44,7 @@ body {
 
 #nav i {
     font-size: 16px;
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 2px solid #fff;
     font-weight: 500;
     padding: 5px 8px;
     border-radius: 50px;
@@ -58,7 +59,7 @@ body {
 #nav button {
     padding: 7px 12px;
     border-radius: 50px;
-    border: 1.5px solid #000;
+    border: 2px solid #fff;;
     font-size: 16px;
     font-weight: 600;
 }
@@ -70,9 +71,9 @@ body {
 }
 
 #main>h1 {
-    /* color: blue; */
+    color: #fff;
     /* border: 2px solid red; */
-    font-size: 180px;
+    font-size: 9rem;
     text-transform: uppercase;
     position: absolute;
     top: 50%;
@@ -80,6 +81,8 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
+    z-index: 1;
+    
 }
 
 img {
@@ -94,11 +97,35 @@ img {
 }
 
 #img1 {
-    transform: translate(-50%,-50%) rotate(-30deg);
+    transform: translate(-50%, -50%) rotate(-30deg);
 }
+
 #img2 {
-    transform: translate(-50%,-50%) rotate(-20deg);
+    transform: translate(-50%, -50%) rotate(-20deg);
 }
+
 #img3 {
-    transform: translate(-50%,-50%) rotate(-10deg);
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+
+#social-icons {
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+}
+
+#btm-right {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
