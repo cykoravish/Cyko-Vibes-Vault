@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif
@@ -7,129 +7,138 @@
 
 html,
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    background-color: rgb(248, 248, 250);
 }
 
 #main {
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
 }
 
 #nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: red;
-    padding: 40px 60px;
+    /* background-color: red; */
+    padding: 2.3rem 5rem;
+    width: 100%;
 }
 
 #nav-part1 {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 45%;
 }
 
 #nav-part2 {
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    /* width: 35%; */
 }
 
 #nav h3 {
-    font-size: 25px;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
 #nav h2 {
-    font-size: 25px;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
 #nav h4 {
-    font-size: 25px;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
 #content {
-    padding: 40px 65px;
-    margin-top: 60px;
+    padding: 0.1rem 5rem;
+    margin-top: 4rem;
 }
 
 #content h3 {
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 #content h1 {
-    margin-top: 40px;
-    font-size: 180px;
-    line-height: 165px;
+    margin-top: 1.5rem;
+    font-size: 6rem;
+    line-height: 6rem;
     font-weight: 500;
-    letter-spacing: -9px;
-    word-spacing: 12px;
+    letter-spacing: -3px;
+    word-spacing: 8px;
 }
 
 #case {
-    padding: 40px 65;
-    margin-top: 150px;
+    padding: 2.3rem 5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #case h4 {
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 #right {
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 4rem;
 }
 
 #line {
-    height: 20px;
+    height: 1rem;
 }
 
 #projects {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 65px;
-    gap: 60px;
+    padding: 0.5rem 5rem;
+    /* gap: 0rem; */
+    /* border:2px solid blue; */
 }
 
 .elem-img {
     width: 100%;
-    height: 720px;
-    background-color: rgb(130, 188, 188);
+    height: 30rem;
+    background-color: rgb(207, 208, 208);
     border-radius: 30px;
     background-size: cover;
     background-position: center;
-    padding: 70px;
+    padding: 4rem;
+    /* border:2px solid yellow; */
 }
 
 #img1 img {
+    height: 22rem;
+    width: 100%;
     /* background-image: url(./assets/diamond.jpg); */
+    /* border:2px solid green; */
 }
 
-#img2 {
+#img2 img{
+    height: 22rem;
+    width: 100%;
     /* background-image: url(./assets/website.jpg); */
+    /* border:2px solid green; */
 }
 
 .bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 3rem 0;
 }
 
 .bottom i {
     padding: 15px 30px;
-    font-size: 22px;
+    font-size: 1.5rem;
     border: 2px solid #000;
     border-radius: 50px;
 }
@@ -140,12 +149,12 @@ body {
 }
 
 .bottom h2 {
-    font-size: 40px;
+    font-size: 1.5px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .bottom h4 {
-    font-size: 22px;
+    font-size: 1.5rem;
     color: rgb(102, 97, 97)
 }
